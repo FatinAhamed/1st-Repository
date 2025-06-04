@@ -2,6 +2,7 @@ let youWon = 0;
 let youLost = 0;
 
 for(i = 1; i<=3; i++){
+        
         let guessNumber = parseInt(prompt("Enter a number between 1 to 5: "));
         let randomNumber = Math.floor(Math.random()*5)+1;
 
